@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap");
+/*
+font-family: 'Abel', sans-serif; -> For normal text
+font-family: 'Bebas Neue', cursive; -> For  Heading     
+*/
+
+body {
+  font-family: "Abel", sans-serif;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 4rem;
+}
+
+.dice-container {
+  margin: 80px 0;
+}
+
+.dicee {
+  border-radius: 20px;
+  margin-top: 40px;
+  width: 200px;
+  height: 200px;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice-row {
+  display: flex;
+}
+
+.dice-circle {
+  border-radius: 50%;
+  margin: 0 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.btn {
+  width: 150px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+  padding: 0;
+}
+.btn i {
+  margin-left: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
